@@ -312,6 +312,9 @@ vim.o.timeoutlen = 300
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
 
+-- Remove netrw banner
+vim.g.netrw_banner = 0
+
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
